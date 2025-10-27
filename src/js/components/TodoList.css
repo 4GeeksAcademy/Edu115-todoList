@@ -1,0 +1,36 @@
+.titulo-todo {
+    font-weight: 100;
+    font-size: 80px;
+}
+
+.input-todo::placeholder {
+    color: #c6c6c6;
+}
+
+.texto-tarea {
+    font-size: 18px;
+}
+
+.btn-eliminar {
+    opacity: 0;
+    transition: opacity;
+}
+.tarea-item:hover .btn-eliminar {
+    opacity: 1;
+}
+
+.list-group-item {
+    border-color: #f0f0f0 !important;
+    padding: 14px 6px;
+}
+
+.card-footer {
+    background: white;
+    border-top: none;
+    font-weight: 300;
+}
+
+.card {
+    border: none;
+    border-radius: 0;
+}
